@@ -1,0 +1,35 @@
+@mixin mq($size) {
+  @if $size == 'sm' {
+    @media (min-width: 640px) {
+      @content;
+    }
+  }
+
+  @if $size == 'md' {
+    @media (min-width: 768px) {
+      @content;
+    }
+  }
+
+  @if $size == 'lg' {
+    @media (min-width: 1024px) {
+      @content;
+    }
+  }
+
+  @if $size == 'xl' {
+    @media (min-width: 1280px) {
+      @content;
+    }
+  }
+
+  @if $size == '2xl' {
+    @media (min-width: 1536px) {
+      @content;
+    }
+  } @else if type-of($size) == 'number' {
+    @media (min-width: $size) {
+      @content;
+    }
+  }
+}
