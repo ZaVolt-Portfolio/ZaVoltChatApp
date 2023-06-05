@@ -29,7 +29,7 @@
     "@vue/eslint-config-prettier": "^7.1.0",
     "@vue/eslint-config-typescript": "^11.0.2",
     "@vueuse/head": "^1.1.23",
-    "commitlint": "^17.4.4",
+    "commitlint": "^17.6.5",
     "critters": "^0.0.16",
     "eslint": "^8.36.0",
     "eslint-config-prettier": "^8.7.0",
